@@ -1,4 +1,4 @@
-import TitleZone from './topArea/MenuZone'
+import TitleZone from './topArea/TitleZone'
 import MenuZone from './topArea/MenuZone'
 import SliderZone from './topArea/SliderZone'
 
