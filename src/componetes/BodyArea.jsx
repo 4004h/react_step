@@ -1,7 +1,15 @@
+import '../style/BodyArea.css'
+import LeftmenuZone from './bodyArea/LeftmenuZone'
+import ContentsZone from './bodyArea/ContentsZone'
+ 
+
 export default function BodyArea(params) {
   return(
     <>
-      BodyArea
+      <div id="bodyArea">
+        <LeftmenuZone/>
+        <ContentsZone/>
+      </div>
     </> 
   )
 }
